@@ -62,9 +62,11 @@ public class DirectRouteGraph {
 								q.add(t) ;
 							}
 						}
-				t.state = States.Status.Visited ;
+				//t.state = States.Status.Visited ;
 				}
-			}
+			} 
+                       out.state = States.Status.Visited ;
+
 		}
 		return false;
 		
